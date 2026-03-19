@@ -4,8 +4,11 @@
   "description": "Brain Games",
   "author": "ndanyc",
   "license": "ISC",
-  "type": "module", 
+  "type": "module",
   "bin": {
-  "brain-games": "bin/brain-games.js"
-}
+    "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
